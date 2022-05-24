@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+
+:root {
+  --font: 'League Spartan', sans-serif;
+
+  /* == Colors for Light Mode == */
+  --main: hsl(252, 94%, 67%);
+  --mainAlt: hsl(252, 100%, 73%);
+  --navy: hsl(231, 20%, 27%);
+  --background: hsl(240, 27%, 98%);
+  --textMain: hsl(228, 29%, 7%);
+  --textAlt: hsl(231, 20%, 61%);
+  --textSub: hsl(231, 37%, 63%);
+  --textSubAlt: hsl(231, 23%, 61%);
+  --green: hsl(160, 67%, 52%);
+  --yellow: hsl(34, 100%, 50%);
+  --red: hsl(0, 80%, 63%);
+  --white: hsl(0, 0%, 100%);
+}
+
+[data-theme='dark'] {
+  /* == Colors for Dark Mode == */
+  --main: hsl(252, 94%, 67%);
+  --mainAlt: hsl(252, 100%, 73%);
+  --navy: hsl(231, 31%, 17%);
+  --background: hsl(233, 30%, 11%);
+  --textMain: hsl(0, 0%, 100%);
+  --textAlt: hsl(231, 73%, 93%);
+  --textSub: hsl(231, 73%, 93%);
+  --textSubAlt: hsl(0, 0%, 100%);
+  --green: hsl(160, 67%, 52%);
+  --yellow: hsl(34, 100%, 50%);
+  --red: hsl(0, 80%, 63%);
+  --white: hsl(0, 0%, 100%);
+}
